@@ -1,12 +1,74 @@
-# React + Vite
+# React Notes App 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Notes App built using **React.js** that allows users to create, view, edit, and delete notes. It has a clean, dark-themed interface and a responsive layout.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Add Notes:** Create notes with a heading and description.
+* **View Notes:** Display all your saved notes in a card layout.
+* **Edit Notes:** Update existing notes whenever needed.
+* **Delete Notes:** Remove notes that are no longer required.
+* **Notes Counter:** Keep track of the total number of notes.
+* **Responsive Design:** Works on different screen sizes.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript
+* HTML
+* CSS
+* Vite
+
+## 💻 Getting Started
+
+Follow these steps to run the project on your local machine.
+
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd notes-app
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to view the application.
+
+## 📂 Project Structure
+
+```text
+notes-app/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 🎯 Purpose
+
+This project was built to practice React fundamentals, including components, state management using `useState`, event handling, and rendering dynamic lists using `map()`.
+
+---
+
+**Made with ❤️ using React.js**
+
